@@ -46,7 +46,7 @@ jobs:
     # NOTICE: ref_type exists only for events of type create. see https://developer.github.com/v3/activity/events/types/#createevent
     - name: add version
       env:
-        PACKAGE_NAME: "JavaScript-If-Display"
+        PACKAGE_NAME: "index"
       run: |
         # retrieve tag and replase version number in file.
         export CREATE_EVENT_REF_TYPE=$(jq --raw-output .ref_type "$GITHUB_EVENT_PATH")
