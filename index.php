@@ -3,7 +3,7 @@
 Plugin Name: JavaScript If Display
 Plugin URI: https://github.com/pitolick/JavaScript-If-Display
 Description: 正規表現で表示・非表示を切り替えるショートコードを追加します
-Version: 1.0
+Version: 1.0.0
 Author: ぴいた
 License: GPL2
 */
